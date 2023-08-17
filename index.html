@@ -9,7 +9,11 @@
 
     <title>Frontend Mentor | Single Price Grid Component</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
     <style>
         .attribution {
             font-size: 11px;
@@ -24,30 +28,33 @@
 <body>
 <main class="container">
     <section class="header-section">
-        <h1 class="main-header">Join our community</h1>
+        <h2 class="main-header">Join our community</h2>
 
-        <h2 class="sub-header green">30-day, hassle-free money back guarantee</h2>
+        <h3 class="sub-header green-text">30-day, hassle-free money back guarantee</h3>
 
-        <p class="hero-paragraph">
+        <p class="hero-paragraph gray-text">
             Gain access to our full library of tutorials along with expert code reviews.
             Perfect for any developers who are serious about honing their skills.
         </p>
     </section>
 
     <section class="subscription-section">
-        <h2 class="sub-header">Monthly Subscription</h2>
+        <h3 class="sub-header light-gray-text">Monthly Subscription</h3>
 
-        <span class="currency-value">&dollar;29</span><span class="currency-subscription"> per month</span>
+        <div class="subscription">
+            <span class="currency-value light-gray-text">&dollar;29</span>
+            <span class="currency-subscription light-gray-text"> per month</span>
+        </div>
 
-        <p>Full access for less than &dollar;1 a day</p>
+        <p class="light-gray-text">Full access for less than &dollar;1 a day</p>
 
-        <button class="btn btn-success">Sign Up</button>
+        <button class="btn green-bg light-gray-text">Sign Up</button>
     </section>
 
     <section class="why-us-section">
-        <h2 class="sub-header">Why Us</h2>
+        <h3 class="sub-header light-gray-text">Why Us</h3>
 
-        <ul class="why-us">
+        <ul class="why-us light-gray-text">
             <li class="text">Tutorials by industry experts</li>
             <li class="text">Peer &amp; expert code review</li>
             <li class="text">Coding exercises</li>
